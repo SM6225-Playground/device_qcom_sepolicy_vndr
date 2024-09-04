@@ -104,6 +104,9 @@ unix_socket_connect(hal_graphics_composer_default, vendor_qdcmsocket, vendor_qdc
 #allow composer to find hal_perf
 hal_client_domain(hal_graphics_composer_default, vendor_hal_perf);
 
+#allow composer to find hal_qspmhal
+hal_client_domain(hal_graphics_composer_default, vendor_hal_qspmhal);
+
 #allow composer to find hal_thermal
 hal_client_domain(hal_graphics_composer_default, hal_thermal);
 
